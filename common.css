@@ -177,6 +177,13 @@ body {
   font-size: 16px;
 }
 
+.citrus_petmate__section-title p {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 20px;
+  text-align: center;
+}
+
 .citrus_petmate .section-padding30 {
   padding: 30px 0;
 }

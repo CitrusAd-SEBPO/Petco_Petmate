@@ -163,6 +163,23 @@
   .citrus_petmate__category--wrapper .single-category {
     width: 60%;
   }
+  .citrus_petmate__options {
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  .citrus_petmate__options::-webkit-scrollbar {
+    display: none;
+  }
+  .citrus_petmate__options--wrapper {
+    width: 270%;
+    overflow-x: auto;
+  }
+  .citrus_petmate__options--wrapper .single-options {
+    width: 60%;
+  }
   .citrus_petmate_tab_btn_single,
   citrus_petmate_tab_btn2_single {
     border-bottom: 8px solid #fff;

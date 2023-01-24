@@ -1,0 +1,34 @@
+.citrus_petmate__options {
+  margin-bottom: 40px;
+}
+
+.citrus_petmate__options--wrapper {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  gap: 40px;
+}
+
+.citrus_petmate__options--wrapper .single-options {
+  display: block;
+  cursor: pointer;
+  background: rgba(0, 119, 192, 0.2);
+  width: calc(100%/4);
+}
+
+.citrus_petmate__options--wrapper .single-options h3 {
+  cursor: pointer;
+  color: #001952;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px 15px 0;
+}
+
+.citrus_petmate__options--wrapper .single-options p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px !important;
+  padding: 25px 15px 40px;
+  min-height: 66px;
+}
+/*# sourceMappingURL=options.css.map */
