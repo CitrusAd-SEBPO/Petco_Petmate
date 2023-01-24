@@ -146,41 +146,22 @@
     margin: 0 !important;
     max-width: 75% !important;
   }
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper {
-    overflow: hidden;
-  }
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper .citrus-petmate-tab__btn,
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper .citrus-petmate-tab__btn2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    overflow-y: auto;
+  .citrus_petmate__category {
+    overflow-x: auto;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
   }
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper .citrus-petmate-tab__btn::-webkit-scrollbar,
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper .citrus-petmate-tab__btn2::-webkit-scrollbar {
+  .citrus_petmate__category::-webkit-scrollbar {
     display: none;
   }
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper .citrus-petmate-tab__btn .citrus_petmate_tab_btn_single,
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper .citrus-petmate-tab__btn .citrus_petmate_tab_btn2_single,
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper .citrus-petmate-tab__btn2 .citrus_petmate_tab_btn_single,
-  .citrus-petmate-main-tab-content .citrus-petmate-wrapper .citrus-petmate-tab__btn2 .citrus_petmate_tab_btn2_single {
-    min-width: 195px;
+  .citrus_petmate__category--wrapper {
+    width: 170%;
+    overflow-x: auto;
   }
-  .citrus-petmate-main-tab-content .citrus_petmate_tab_controls .splide__arrow {
-    display: none;
-  }
-  .citrus-petmate-main-tab-content .citrus_petmate_tab_item {
-    min-width: 70%;
+  .citrus_petmate__category--wrapper .single-category {
+    width: 60%;
   }
   .citrus_petmate_tab_btn_single,
   citrus_petmate_tab_btn2_single {

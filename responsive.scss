@@ -242,33 +242,22 @@
     }
 
 
-    // Carousels
-    .citrus-petmate-main-tab-content{
-        .citrus-petmate-wrapper{
-            overflow: hidden;
-            .citrus-petmate-tab__btn,
-            .citrus-petmate-tab__btn2 {
-                display: flex;
-                align-items: flex-end;
-                justify-content: flex-start;
-                overflow-y: auto;
-                -ms-overflow-style: none;  /* IE and Edge */
-                scrollbar-width: none;  /* Firefox */
-                &::-webkit-scrollbar {
-                    display: none;
-                }
-                .citrus_petmate_tab_btn_single,
-                .citrus_petmate_tab_btn2_single{
-                    min-width: 195px;
+    // Shop by Category
+    .citrus_petmate{
+        &__category{
+            overflow-x: auto;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            &--wrapper{
+                width: 170%;
+                overflow-x: auto;
+                .single-category{
+                    width: 60%;
                 }
             }
-            
-        }
-        .citrus_petmate_tab_controls .splide__arrow{
-            display: none;
-        }
-        .citrus_petmate_tab_item {
-            min-width: 70%;
         }
     }
 

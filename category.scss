@@ -1,0 +1,27 @@
+@import "variables";
+
+.citrus_petmate{
+    &__category{
+        &--wrapper{
+            align-items: flex-start !important;
+            .single-category{
+                display: block;
+                cursor: pointer;
+                width: calc(100%/4);
+                padding: 15px;
+                &__img{
+                    max-width: 180px;
+                    margin: 0 auto;
+                }
+                h3{
+                    text-decoration: underline;
+                    cursor: pointer;
+                    color: $cta_blue;
+                    font-size: 16px;
+                    text-align: center;
+                    padding: 40px 15px;
+                }
+            }
+        }
+    }
+}

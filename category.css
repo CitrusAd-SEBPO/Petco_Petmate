@@ -1,0 +1,27 @@
+.citrus_petmate__category--wrapper {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+}
+
+.citrus_petmate__category--wrapper .single-category {
+  display: block;
+  cursor: pointer;
+  width: calc(100%/4);
+  padding: 15px;
+}
+
+.citrus_petmate__category--wrapper .single-category__img {
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+.citrus_petmate__category--wrapper .single-category h3 {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #001952;
+  font-size: 16px;
+  text-align: center;
+  padding: 40px 15px;
+}
+/*# sourceMappingURL=category.css.map */

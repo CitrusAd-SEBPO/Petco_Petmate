@@ -97,13 +97,6 @@ body{
             padding: 10px;
         }
     }
-    .citrus-petmate-section-title{
-        h2{
-            sup{
-                font-size: 16px;
-            }
-        }
-    }
 
     .default-wrap{
         width: 100%;
@@ -151,27 +144,7 @@ body{
 }
 
 .citrus_petmate__section-title{
-    padding: 25px 15px;
-}
-
-.citrus_petmate {
-    .section-padding30{
-        padding: 30px 0;
-    }
-}
-
-.citrus_petmate__section-title{
-    h2{
-        text-align: center;
-        font-size: 25px;
-        color: #000000;
-        font-family: "PetcoCircularTT-Bold", arial !important;
-    }
-}
-
-.citrus-petmate-section-title{
     padding: 40px 15px;
-    font-family: "PetcoCircularTT Bold" !important;
     h2{
         font-size: 1.5rem;
         color: #000000;
@@ -179,5 +152,14 @@ body{
         font-weight: 700;
         line-height: initial;
         font-family: "PetcoCircularTT-Bold", arial !important;
+        sup{
+            font-size: 16px;
+        }
+    }
+}
+
+.citrus_petmate {
+    .section-padding30{
+        padding: 30px 0;
     }
 }
