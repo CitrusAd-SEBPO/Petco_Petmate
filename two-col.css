@@ -188,8 +188,12 @@ body {
   padding: 30px 0;
 }
 
+.citrus_petmate__two_col {
+  padding: 40px 20px;
+}
+
 .citrus_petmate__two_col--wrapper {
-  gap: 20px;
+  gap: 40px;
 }
 
 .citrus_petmate__two_col--wrapper .single-col {

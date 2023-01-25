@@ -102,9 +102,6 @@
     text-decoration: underline !important;
     border: none;
   }
-  .citrus_petmate_carousel-inner {
-    background: #000000;
-  }
   .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col:nth-child(2) {
     width: 60% !important;
   }
@@ -115,7 +112,7 @@
     left: -10px !important;
   }
   .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--cta {
-    padding: 0 0 0 15px;
+    padding: 10px 0 0 15px;
   }
   .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--cta a {
     color: #000000 !important;
@@ -123,6 +120,7 @@
     min-width: auto;
     margin: 0 15px;
     padding: 0;
+    height: initial;
   }
   .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--text {
     padding: 0;
@@ -131,20 +129,21 @@
     max-width: 350px;
     margin: 0 auto;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 0;
   }
   .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--text h1 {
-    font-size: 22px;
+    font-size: 21px;
     padding-top: 0;
+    padding-bottom: 10px;
   }
   .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--text p {
     padding-bottom: 0;
     font-size: 14px;
   }
   .citrus_petmate_carousel-inner .citrus_petmate__pov--logo {
-    padding: 0px 0 0 15px !important;
+    padding: 0px 0 0 10px !important;
     margin: 0 !important;
-    max-width: 75% !important;
+    max-width: 80% !important;
   }
   .citrus_petmate__category {
     overflow-x: auto;
@@ -180,76 +179,79 @@
   .citrus_petmate__options--wrapper .single-options {
     width: 60%;
   }
-  .citrus_petmate_tab_btn_single,
-  citrus_petmate_tab_btn2_single {
-    border-bottom: 8px solid #fff;
+  .citrus_petmate__two_col--wrapper {
+    gap: 40px;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
   }
-  .citrus_petmate__video1 .citrus_petmate__video_container--col:nth-child(1) {
+  .citrus_petmate__two_col--wrapper .feature-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .citrus_petmate__two_col--wrapper .feature-img .single-col__img {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-  .citrus_petmate_pet-health {
-    overflow: hidden;
+  .citrus_petmate__two_col--wrapper .feature-img .single-col__txt {
+    padding: 20px 15px;
+    width: 100%;
   }
-  .citrus_petmate_pet-health__container {
-    padding: 0 15px;
-    overflow-x: auto;
+  .citrus_petmate__two_col--wrapper .feature-img .single-col__txt p {
+    padding: 20px 0;
   }
-  .citrus_petmate_pet-health__container .container-wrapper {
-    width: 210%;
-    overflow-x: auto;
+  .citrus_petmate__two_col--wrapper .single-col {
+    width: 100%;
   }
-  .citrus_petmate_pet-health__container .container-wrapper .single-content {
-    padding: 0 15px;
-    width: 70%;
+  .citrus_petmate__two_col--wrapper .single-col__container {
+    width: 220%;
+    gap: 20px;
   }
-  .citrus_petmate_pet-health__container .container-wrapper .single-content a .single-content__img {
-    max-width: 230px;
+  .citrus_petmate__two_col--wrapper .single-col__container--items {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 40px;
   }
-  .citrus_petmate_pet-health__container .container-wrapper .single-content a .single-content__txt {
-    padding: 25px 15px 40px;
+  .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper {
+    width: 60%;
   }
-  .citrus_petmate_pet-health__container {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
-  }
-  .citrus_petmate_pet-health__container::-webkit-scrollbar {
-    display: none;
-  }
-  .citrus_petmate_help-pet .citrus-petmate-section-title {
-    max-width: 270px;
+  .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__img {
+    max-width: 190px;
     margin: 0 auto;
   }
-  .citrus_petmate_help-pet__container {
-    padding: 0 15px;
-    overflow-x: auto;
+  .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt {
+    text-align: left;
   }
-  .citrus_petmate_help-pet__container .container-wrapper {
-    width: 160%;
-    overflow-x: auto;
+  .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt p {
+    font-size: 14px;
+    padding: 20px 0;
   }
-  .citrus_petmate_help-pet__container .container-wrapper .single-col {
-    width: 80%;
-  }
-  .citrus_petmate_help-pet__container {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
-  }
-  .citrus_petmate_help-pet__container::-webkit-scrollbar {
+  .citrus_petmate__two_col--wrapper .single-col .citrus_petmate_splide .splide__arrow {
     display: none;
   }
 }
 
 /* Mobile devices */
 @media only screen and (max-width: 320px) {
-  .citrus_petmate_carousel-inner .pov2 .citrus_petmate_carousel-item__col:nth-child(2) .citrus_petmate__pov--text h1 {
-    max-width: 260px;
-    margin: 0 auto;
+  .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--cta {
+    padding: 10px 0 0 10px;
+  }
+  .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--cta a {
+    color: #000000 !important;
+    border: none !important;
+    min-width: auto;
+    margin: 0 15px;
+    padding: 0;
+    height: initial;
+  }
+  .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--text h1 {
+    font-size: 18px;
+  }
+  .citrus_petmate_carousel-inner .citrus_petmate_carousel-item .citrus_petmate_carousel-item__col .citrus_petmate__pov--text p {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

@@ -189,7 +189,6 @@
 
     // POV styles
     .citrus_petmate_carousel-inner{
-        background: #000000;
         .citrus_petmate_carousel-item{
             .citrus_petmate_carousel-item__col{
                 &:nth-child(2){
@@ -206,13 +205,14 @@
                     }
                 }
                 .citrus_petmate__pov--cta{
-                    padding: 0 0 0 15px;
+                    padding: 10px 0 0 15px;
                     a{
                         color: #000000 !important;
                         border: none !important;
                         min-width: auto;
                         margin: 0 15px;
                         padding: 0;
+                        height: initial;
                     }
                 }
                 .citrus_petmate__pov--text{
@@ -221,11 +221,12 @@
                         max-width: 350px;
                         margin: 0 auto;
                         padding-left: 15px;
-                        padding-right: 15px;
+                        padding-right: 0;
                     }
                     h1{
-                        font-size: 22px;
+                        font-size: 21px;
                         padding-top: 0;
+                        padding-bottom: 10px;
                     }
                     p{
                         padding-bottom: 0;
@@ -235,9 +236,9 @@
             }
         }
         .citrus_petmate__pov--logo{
-            padding: 0px 0 0 15px !important;
+            padding: 0px 0 0 10px !important;
             margin: 0 !important;
-            max-width: 75% !important;
+            max-width: 80% !important;
         }
     }
 
@@ -280,82 +281,55 @@
         }
     }
 
-    .citrus_petmate_tab_btn_single,
-    citrus_petmate_tab_btn2_single{
-        border-bottom: 8px solid #fff;
-    }
-
-
-    .citrus_petmate__video1{
-        .citrus_petmate__video_container--col:nth-child(1){
-            order: 2;
-        }
-    }
-
-    // Pet Health
-    .citrus_petmate_pet-health{
-        overflow: hidden;
-        &__container{
-            padding: 0 15px;
-            overflow-x: auto;
-            .container-wrapper{
-                width: 210%;
-                overflow-x: auto;
-                .single-content{
-                    padding: 0 15px;
-                    width: 70%;
-                    a{
-                        .single-content__img{
-                            max-width: 230px;
-                        }
-                        .single-content__txt{
-                            padding: 25px 15px 40px;
-                        }
+    // Two columns + carousel
+    .citrus_petmate__two_col{
+        &--wrapper{
+            gap: 40px;
+            flex-wrap: wrap !important;
+            .feature-img{
+                display: flex;
+                flex-wrap: wrap;
+                .single-col__img{
+                    order: 2;
+                }
+                .single-col__txt{
+                    padding: 20px 15px;
+                    width: 100%;
+                    p{
+                        padding: 20px 0;
                     }
                 }
             }
-            
-        }
-    }
-
-    .citrus_petmate_pet-health__container{
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-    }
-
-    .citrus_petmate_pet-health__container::-webkit-scrollbar {
-        display: none;
-    }
-
-
-    // Helping Pets
-    .citrus_petmate_help-pet{
-        .citrus-petmate-section-title{
-            max-width: 270px;
-            margin: 0 auto;
-        }
-        &__container{
-            padding: 0 15px;
-            overflow-x: auto;
-            .container-wrapper{
-                width: 160%;
-                overflow-x: auto;
-                .single-col{
-                    width: 80%;
+            .single-col{
+                width: 100%;
+                &__container{
+                    width: 220%;
+                    gap: 20px;
+                    &--items{
+                        flex-wrap: nowrap;
+                        gap: 40px;
+                        .items_wrapper{
+                            width: 60%;
+                            &__img{
+                                max-width: 190px;
+                                margin: 0 auto;
+                            }
+                            &__txt{
+                                text-align: left;
+                                p{
+                                    font-size: 14px;
+                                    padding: 20px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .citrus_petmate_splide .splide__arrow{
+                    display: none;
                 }
             }
-            
         }
     }
-
-    .citrus_petmate_help-pet__container{
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-    }
-
-    .citrus_petmate_help-pet__container::-webkit-scrollbar {
-        display: none;
-      }
 
 
 }
@@ -364,17 +338,29 @@
 @media only screen and (max-width: 320px){
     // POV styles
     .citrus_petmate_carousel-inner{
-        .pov2{
+        .citrus_petmate_carousel-item{
             .citrus_petmate_carousel-item__col{
-                &:nth-child(2){
-                    .citrus_petmate__pov--text{
-                        h1{
-                            max-width: 260px;
-                            margin: 0 auto;
-                        }
+                .citrus_petmate__pov--cta{
+                    padding: 10px 0 0 10px;
+                    a{
+                        color: #000000 !important;
+                        border: none !important;
+                        min-width: auto;
+                        margin: 0 15px;
+                        padding: 0;
+                        height: initial;
+                    }
+                }
+                .citrus_petmate__pov--text{
+                    h1{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 12px;
                     }
                 }
             }
         }
     }
+
 }

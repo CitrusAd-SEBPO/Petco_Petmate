@@ -2,8 +2,9 @@
 @import "common";
 
 .citrus_petmate__two_col{
+    padding: 40px 20px;
     &--wrapper{
-        gap: 20px;
+        gap: 40px;
         .single-col{
             width: calc(100%/2);
             &__img{
