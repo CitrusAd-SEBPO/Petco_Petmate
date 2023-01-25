@@ -1,27 +1,61 @@
 @import "variables";
 @import "common";
 
-.citrus_vetdiet_help-pet{
-    &__container{
-        padding: 0 5%;
-        margin-bottom: 40px;
+.citrus_petmate__two_col{
+    &--wrapper{
+        gap: 20px;
         .single-col{
-            padding: 0 15px;
-            a{
-                display: block;
-                text-align: center;
+            width: calc(100%/2);
+            &__img{
+                display: flex;
             }
-            .single-col__txt{
-                background: $bg1;
-                padding: 40px 15px;
+            &__txt{
+                text-align: center;
+                padding: 50px 15px;
+                background: rgba(0, 119, 192, 0.2);
                 h3{
                     font-size: 20px;
-                    color: #000000;
-                    max-width: 310px;
-                    margin: 0 auto;
-                    padding-bottom: 25px;
+                    color: $cta_black;
                 }
+                p{
+                    font-size: 16px;
+                    padding: 25px 0;
+                    sup{
+                        font-size: 10px;
+                    }
+                }
+                .cta-underline{
+                    text-align: center;
+                    a{
 
+                    }
+                }
+            }
+            &__container{
+                gap: 20px;
+                &--items{
+                    width: 50%;
+                    flex-wrap: wrap;
+                    gap: 40px;
+                    .items_wrapper{
+                        &__img{
+                            max-width: 190px;
+                            margin: 0 auto;
+                        }
+                        &__txt{
+                            text-align: left;
+                            p{
+                                font-size: 14px;
+                                padding: 20px 0;
+                            }
+                            .cta-underline{
+                                a{
+                                    color: $cta_blue;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
