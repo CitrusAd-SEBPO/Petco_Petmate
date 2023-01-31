@@ -304,7 +304,7 @@
                 width: 100%;
                 &__container{
                     width: 220%;
-                    gap: 20px;
+                    // gap: 20px;
                     &--items{
                         flex-wrap: nowrap;
                         gap: 40px;
@@ -316,6 +316,7 @@
                             }
                             &__txt{
                                 text-align: left;
+                                max-width: 100%;
                                 p{
                                     font-size: 14px;
                                     padding: 20px 0;

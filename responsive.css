@@ -208,7 +208,6 @@
   }
   .citrus_petmate__two_col--wrapper .single-col__container {
     width: 220%;
-    gap: 20px;
   }
   .citrus_petmate__two_col--wrapper .single-col__container--items {
     -ms-flex-wrap: nowrap;
@@ -224,6 +223,7 @@
   }
   .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt {
     text-align: left;
+    max-width: 100%;
   }
   .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt p {
     font-size: 14px;

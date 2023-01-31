@@ -3,6 +3,7 @@
 
 .citrus_petmate__two_col{
     padding: 0 20px 40px;
+    overflow: hidden;
     &--wrapper{
         gap: 40px;
         .single-col{
@@ -33,11 +34,12 @@
                 }
             }
             &__container{
-                gap: 20px;
+                // gap: 20px;
                 &--items{
                     width: 50%;
                     flex-wrap: wrap;
-                    gap: 40px;
+                    gap: 50px;
+                    justify-content: center;
                     .items_wrapper{
                         &__img{
                             max-width: 190px;
@@ -45,9 +47,12 @@
                         }
                         &__txt{
                             text-align: left;
+                            max-width: 90%;
+                            margin: 0 auto;
                             p{
                                 font-size: 14px;
                                 padding: 20px 0;
+                                min-height: 40px;
                             }
                             .cta-underline{
                                 a{

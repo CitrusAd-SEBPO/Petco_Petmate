@@ -190,6 +190,7 @@ body {
 
 .citrus_petmate__two_col {
   padding: 0 20px 40px;
+  overflow: hidden;
 }
 
 .citrus_petmate__two_col--wrapper {
@@ -230,15 +231,14 @@ body {
   text-align: center;
 }
 
-.citrus_petmate__two_col--wrapper .single-col__container {
-  gap: 20px;
-}
-
 .citrus_petmate__two_col--wrapper .single-col__container--items {
   width: 50%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 40px;
+  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__img {
@@ -248,11 +248,14 @@ body {
 
 .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt {
   text-align: left;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt p {
   font-size: 14px;
   padding: 20px 0;
+  min-height: 40px;
 }
 
 .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt .cta-underline a {

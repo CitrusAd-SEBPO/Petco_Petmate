@@ -27,29 +27,8 @@ var n, t; n = this, t = function () { "use strict"; var v = "(prefers-reduced-mo
                     start: 0,
                     focus  : 0,
                     omitEnd: true,
-                    breakpoints: {
-                        375: {
-                            perPage: 2,
-                        },
-                        576: {
-                            perPage: 2,
-                        },
-                        991: {
-                            perPage: 2,
-                        },
-                        992: {
-                            perPage: 2,
-                        },
-                        1024: {
-                            perPage: 2,
-                        },
-                        1200: {
-                            perPage: 2,
-                        },
-                        1440: {
-                            perPage: 2,
-                        }
-                    }
+                    
+                    
                 }
     
                 new Splide(splideElement, splideDefaultOptions).mount();
