@@ -197,6 +197,7 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  max-height: 235px;
 }
 
 .citrus_petmate_carousel .citrus_petmate_carousel-inner {
@@ -1370,7 +1371,7 @@ body {
 .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt p {
   font-size: 14px;
   padding: 20px 0;
-  min-height: 70px;
+  min-height: 40px;
 }
 
 .citrus_petmate__two_col--wrapper .single-col__container--items .items_wrapper__txt .cta-underline a {

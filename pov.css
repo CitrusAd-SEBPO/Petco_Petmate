@@ -6,6 +6,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  max-height: 235px;
 }
 
 .citrus_petmate_carousel .citrus_petmate_carousel-inner {
